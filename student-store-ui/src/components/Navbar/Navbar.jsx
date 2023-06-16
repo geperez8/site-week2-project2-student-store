@@ -7,8 +7,7 @@ import Logo from "../Logo/Logo"
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <p>Navbar</p>
-      <Logo />
+      <Link to = "/"><Logo /></Link>
       {/* <Link to = "/">Home </Link>
       <a id = "about-us" href = "about-us">About Us</a>
       <a id = "contact us" href ="contact-us">Contact Us</a>
