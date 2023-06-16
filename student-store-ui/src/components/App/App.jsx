@@ -6,10 +6,13 @@ import Home from "../Home/Home"
 import "./App.css"
 import {useState, useEffect} from 'react'
 import axios from "axios"
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
+
 
 export default function App() {
 
   const [products, setProducts] = useState('')
+  
 
   useEffect(() => {
     axios.get("https://codepath-store-api.herokuapp.com/store").then((response) => {
@@ -21,15 +24,16 @@ export default function App() {
 
   }, [])
   return (
+    <BrowserRouter>
     <div className="app">
-      <BrowserRouter>
         <main>
           {/* YOUR CODE HERE! */}
           <Navbar />
           <Sidebar />
-          <Home products = {products}/>
-        </main>
-      </BrowserRouter>
+          <Routes><Route path = "/" element = {<Home products = {products}/>} /></Routes>
+          </main>
     </div>
+
+    </BrowserRouter>
   )
 }
