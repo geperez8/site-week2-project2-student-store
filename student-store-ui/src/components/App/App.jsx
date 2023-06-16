@@ -24,11 +24,13 @@ export default function App() {
 
   }, [])
   return (
+
     <BrowserRouter>
     <div className="app">
+      <Navbar />
         <main>
           {/* YOUR CODE HERE! */}
-          <Navbar />
+          
           <Sidebar />
           <Routes><Route path = "/" element = {<Home products = {products}/>} /></Routes>
           </main>

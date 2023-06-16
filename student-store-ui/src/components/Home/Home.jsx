@@ -14,15 +14,11 @@ export default function Home({products, handleAddItemToCart, handleRemoveItemToC
   }
 
   const categoryChangeHandler = (category) => {
-    console.log(category)
     setCurrenCategory(category)
-    console.log("this has been called")
-    console.log(currentCategory)
   }
     
   return (
     <div className="home">
-      <p>Home</p>
       <Hero />
       <SubNavBar searchItem={searchItem} eventHandler={searchEventHandler} categoryChangeHandler = {categoryChangeHandler}/>
       <ProductGrid currentCategory = {currentCategory} searchItem = {searchItem} products={products} handleAddItemToCart={handleAddItemToCart} handleRemoveItemToCart={handleRemoveItemToCart}/>
