@@ -1,3 +1,18 @@
-img{
-    width: 200px
+.product-img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.product-card{
+    background-color: beige;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 30px;
+    border-width: thin;
+    border-color: black;
+}
+
+.product-name{
+    font-size: 30px;
+    inline-size: 300px;
 }

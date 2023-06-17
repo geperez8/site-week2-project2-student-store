@@ -7,7 +7,7 @@ function ProductCard({product, showDescription, handleAddItemToCart = () => {}, 
     <div className='product-card'>
  
         <div className='media'>
-            <Link to = {`/products/${product.id}`}><img src={product.image} /></Link>
+            <Link to = {`/products/${product.id}`}><img class = 'product-img' src={product.image} /></Link>
         </div>
 
         <h1 className='product-name'>{product.name}</h1>

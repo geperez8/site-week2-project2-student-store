@@ -25,7 +25,6 @@ export default function Home({products, handleAddItemToCart, handleRemoveItemToC
 
         <Hero />
         <SubNavBar searchItem={searchItem} eventHandler={searchEventHandler} categoryChangeHandler = {categoryChangeHandler}/>
-        
         <ProductGrid currentCategory = {currentCategory} searchItem = {searchItem} 
           products={products} handleAddItemToCart={handleAddItemToCart} 
           handleRemoveItemToCart={handleRemoveItemToCart}/>

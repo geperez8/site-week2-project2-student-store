@@ -1,4 +1,5 @@
 import React from 'react'
+import "../SubNavBar/SubNavBar.css"
 
 function SubNavBar({searchItem, eventHandler, categoryHandler, categoryChangeHandler}) {
 
@@ -11,16 +12,19 @@ function SubNavBar({searchItem, eventHandler, categoryHandler, categoryChangeHan
     }
     
     return (
-        <div>
+        <div className='sub-nav-bar'>
             <input type='text'
-        placeholder='Search Here' 
-        onChange={handleChange}
-        value = {searchItem}/>
-            <button value = "" onClick={handleButton}>All Categories</button>
-            <button value = "clothing" onClick={handleButton}>Clothing</button>
-            <button value = "food" onClick={handleButton}>Food</button>
-            <button value = "accessories" onClick={handleButton}>Accessories</button>
-            <button value = "tech" onClick={handleButton}>Tech</button>
+                placeholder='Search Here' 
+                onChange={handleChange}
+                id = "search-bar"
+                value = {searchItem}/> <br /><br /><br />
+            <div className='buttons'>
+                <button value = "" onClick={handleButton}>All Categories</button>
+                <button value = "clothing" onClick={handleButton}>Clothing</button>
+                <button value = "food" onClick={handleButton}>Food</button>
+                <button value = "accessories" onClick={handleButton}>Accessories</button>
+                <button value = "tech" onClick={handleButton}>Tech</button>
+            </div>
         </div>
         )  
 }

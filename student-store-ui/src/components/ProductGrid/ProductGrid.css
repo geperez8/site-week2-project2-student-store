@@ -1,4 +1,10 @@
 .product-grid{
+    justify-content: center;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: grey; 
+    margin: 200px;
+    border-radius: 50px;
  }
