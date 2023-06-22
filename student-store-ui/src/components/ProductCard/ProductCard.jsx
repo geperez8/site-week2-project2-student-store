@@ -16,11 +16,11 @@ function ProductCard({product, showDescription, handleAddItemToCart = () => {}, 
 
         {showDescription && <h1 className='product-description'>{product.description}</h1>}
         
-        <button className='add' onClick={handleAddItemToCart(product.id)}>+</button>
+        <button className='add' onClick={handleAddItemToCart(product.id)}>Add to cart <i className="fa fa-shopping-cart"></i></button>
         
-        <p className='product-quantity'>{quantity}</p>
+        {quantity > 0 && {quantity}}
         
-        <button className='remove' onClick={handleRemoveItemFromCart(product.id)}>-</button>
+        {quantity > 0 && <button className='remove' onClick={handleRemoveItemFromCart(product.id)}>Remove from cart</button>}
     </div>
   )
 }

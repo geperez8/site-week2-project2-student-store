@@ -1,18 +1,28 @@
 .product-img{
-    width: 300px;
-    border-radius: 50px;
+    width: 200px;
+    border-radius: 20px;
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
 }
+
 
 .product-card{
     background-color: beige;
-    border-radius: 50px;
-    padding: 20px;
-    margin: 30px;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
     border-width: thin;
-    border-color: black;
+    
+
 }
 
 .product-name{
-    font-size: 30px;
-    inline-size: 300px;
+    font-size: 15px;
+    inline-size: 200px;
+}
+
+.product-price{
+    font-size: 15px;
+    inline-size: 200px;
 }

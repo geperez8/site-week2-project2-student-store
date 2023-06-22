@@ -1,5 +1,6 @@
 .navbar{
     text-align: center;
+    margin-left: 20px;
     
 }
 
@@ -7,12 +8,12 @@
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .nav-item{
     color: black;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
 }
 .nav-item:hover{

@@ -13,7 +13,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-button{
+.subNavBar-button{
     background: white;
     border-radius: 999px;
     box-shadow: grey 0 10px 20px -10px;
@@ -42,5 +42,5 @@ button:hover{
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }

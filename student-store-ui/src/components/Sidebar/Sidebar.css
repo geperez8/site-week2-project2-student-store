@@ -1,0 +1,19 @@
+.open-sidebar{
+    height: 100%;
+    width: 500px;
+    top: 0;
+    background-color: lightblue;
+    position: fixed;
+    float: left;
+    text-align: center;
+}
+.closed-sidebar{
+    height: 100%;
+    width: 70px;
+    top: 0;
+    background-color: lightblue;
+    position: fixed;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}

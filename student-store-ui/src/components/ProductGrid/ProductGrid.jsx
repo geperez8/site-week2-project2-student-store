@@ -9,6 +9,8 @@ function ProductGrid({products, searchItem, handleAddItemToCart, handleRemoveIte
        && product.name.toLowerCase().includes(searchItem.toLowerCase()))
        .map((product) => (<ProductCard  key = {product.name} product = {product} showDescription = {false}/>))}
     </div>
+
+
   )
 }
 

@@ -19,11 +19,11 @@ function SubNavBar({searchItem, eventHandler, categoryHandler, categoryChangeHan
                 id = "search-bar"
                 value = {searchItem}/> <br /><br /><br />
             <div className='buttons'>
-                <button value = "" onClick={handleButton}>All Categories</button>
-                <button value = "clothing" onClick={handleButton}>Clothing</button>
-                <button value = "food" onClick={handleButton}>Food</button>
-                <button value = "accessories" onClick={handleButton}>Accessories</button>
-                <button value = "tech" onClick={handleButton}>Tech</button>
+                <button className='subNavBar-button' value = "" onClick={handleButton}>All Categories</button>
+                <button className='subNavBar-button' value = "clothing" onClick={handleButton}>Clothing</button>
+                <button className='subNavBar-button' value = "food" onClick={handleButton}>Food</button>
+                <button className='subNavBar-button' value = "accessories" onClick={handleButton}>Accessories</button>
+                <button className='subNavBar-button' value = "tech" onClick={handleButton}>Tech</button>
             </div>
         </div>
         )  

@@ -9,8 +9,8 @@ function ProductDetail({handleAddItemToCart, handleRemoveItemFromCart}) {
     const [product, setProduct] = useState({})
 
     useEffect(() => {
-        axios.get(`https://codepath-store-api.herokuapp.com/store/${productID}`).then((response) => {
-            setProduct(response.data.product)})
+        axios.get(`http://localhost:3001/store/${productID}`).then((response) => {
+            setProduct(response.data)})
             .catch( (error) => {
             console.error(error)})
 
