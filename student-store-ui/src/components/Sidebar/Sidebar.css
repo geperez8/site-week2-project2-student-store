@@ -17,3 +17,12 @@
     text-align: center;
     padding-top: 20px;
 }
+
+.hamburger-icon{
+    width: 40px;
+    margin-top: 10px;
+}
+
+.hamburger-icon:hover{
+    cursor: pointer;
+}

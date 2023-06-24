@@ -12,7 +12,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 
 
 
-export default function Home({products, handleAddItemToCart, handleRemoveItemToCart}) {
+export default function Home({products, handleAddItemToCart, handleRemoveItemFromCart}) {
   const [searchItem, setSearchItem] = useState('')
   const [currentCategory, setCurrenCategory] = useState('')
 
@@ -31,7 +31,7 @@ export default function Home({products, handleAddItemToCart, handleRemoveItemToC
         <SubNavBar searchItem={searchItem} eventHandler={searchEventHandler} categoryChangeHandler = {categoryChangeHandler}/>
         <ProductGrid currentCategory = {currentCategory} searchItem = {searchItem} 
           products={products} handleAddItemToCart={handleAddItemToCart} 
-          handleRemoveItemToCart={handleRemoveItemToCart}/>
+          handleRemoveItemFromCart={handleRemoveItemFromCart}/>
         <AboutUs />
         <ContactUs />
         <Footer />

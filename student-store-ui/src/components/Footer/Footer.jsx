@@ -14,9 +14,9 @@ function Footer() {
   return (
     <div className="footer">
         {footerColumnNames.map((ColumnName) => 
-          (<div className='footer-column'>
+          (<div  key = {ColumnName} className='footer-column'>
             <h1>{ColumnName}</h1>
-            {footerColumnInfo[ColumnName].map((columnElements) => (<h3>{columnElements}</h3>))}
+            {footerColumnInfo[ColumnName].map((columnElements) => (<h3 key = {columnElements}>{columnElements}</h3>))}
           </div>))}
     </div>
   )

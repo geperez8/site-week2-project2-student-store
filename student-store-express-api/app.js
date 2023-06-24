@@ -2,7 +2,8 @@
 const express = require('express')
 const morgan = require('morgan')
 const cors = require("cors")
-const router = require("../student-store-express-api/routes/products")
+const productRouter = require("../student-store-express-api/routes/products")
+const purchaseRouter = require("../student-store-express-api/routes/purchases")
 
 // create express appllication
 const app = express()
@@ -16,6 +17,8 @@ app.get("/", (req, res) => {
     res.json({"ping":"pog"})
 })
 
-app.use('/store', router)
+app.use('/store', productRouter)
+
+app.use('/purchases', purchaseRouter)
 
 module.exports = app

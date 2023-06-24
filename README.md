@@ -34,17 +34,21 @@ https://www.loom.com/share/1e1e204f65b04d798490841ac3c8d19bsid=3176b0b4-1f86-4f5
 
 ## *Week 3* Application Features
 
+Video for Week 3
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c1c8d3be42ac4874af1086118fa3b868?sid=9e6c5bb7-83cd-4f9d-8429-ee38baabab86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### Core Features
 
-- [ ] User can click to expand the shopping cart in the left navigation.
-- [ ] Users can click the '+' button on a product cart to increment that product in the shopping cart.
-- [ ] Users can click the '-' button on a product cart to decrement that product in the shopping cart. If the count is zero, the product should be removed from the cart.
-- [ ] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
-- [ ] Users can checkout, and receive a receipt confirming their purchase.
+- [X] User can click to expand the shopping cart in the left navigation.
+- [X] Users can click the '+' button on a product cart to increment that product in the shopping cart.
+- [X] Users can click the '-' button on a product cart to decrement that product in the shopping cart. If the count is zero, the product should be removed from the cart.
+- [X] The shopping cart displays a table of products, quantities, subtotal, tax, and total.
+- [X] Users can checkout, and receive a receipt confirming their purchase.
 
 ### Stretch Features
 
-- [ ] Create an endpoint for fetching all orders in the database and an endpoint for serving an individual order based on its ID.
-- [ ] Build a page in the UI that displays the list of all past orders. The user should be able to click on any individual order to take them to a more detailed page of the transaction.
+- [X] Create an endpoint for fetching all orders in the database and an endpoint for serving an individual order based on its ID.
+- [X] Build a page in the UI that displays the list of all past orders. The user should be able to click on any individual order to take them to a more detailed page of the transaction.
 - [ ] Allow users to use an input to filter orders by the email of the person who placed the order.
 - [ ] Your choice! (Replace this bullet explaining what you implemented. Example: Users can create a wish list of products they are interested in but not yet ready to purchase.)
