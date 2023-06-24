@@ -35,7 +35,7 @@ Video for Week 2
 
 Video for Week 3
 
-https://www.loom.com/embed/c1c8d3be42ac4874af1086118fa3b868?sid=9e6c5bb7-83cd-4f9d-8429-ee38baabab86
+https://www.loom.com/share/c1c8d3be42ac4874af1086118fa3b868?sid=b0596b83-8fdf-4054-9b7b-f4c834b054af
 
 ### Core Features
 
