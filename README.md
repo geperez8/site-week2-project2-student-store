@@ -36,7 +36,7 @@ https://www.loom.com/share/1e1e204f65b04d798490841ac3c8d19bsid=3176b0b4-1f86-4f5
 
 Video for Week 3
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/c1c8d3be42ac4874af1086118fa3b868?sid=9e6c5bb7-83cd-4f9d-8429-ee38baabab86" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+https://www.loom.com/embed/c1c8d3be42ac4874af1086118fa3b868?sid=9e6c5bb7-83cd-4f9d-8429-ee38baabab86
 
 ### Core Features
 
