@@ -14,7 +14,6 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 Video for Week 2
 
-https://www.loom.com/share/1e1e204f65b04d798490841ac3c8d19bsid=3176b0b4-1f86-4f5c-91e0-5dd394a433d2
 
 ### Core Features
 
